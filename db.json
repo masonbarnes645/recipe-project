@@ -474,6 +474,35 @@
           "amount": "to taste"
         }
       ]
+    },
+    {
+      "id": "3",
+      "name": "Sushi Rolls",
+      "cuisine": "Japanese",
+      "timeToPrep": "45 minutes",
+      "image": "https://assets.bonappetit.com/photos/5a6f48f94f860a026c60fd71/1:1/w_1920,c_limit/pasta-carbonara.jpg",
+      "ingredients": [
+        {
+          "name": "sushi rice",
+          "amount": "200g"
+        },
+        {
+          "name": "seaweed",
+          "amount": "4 sheets"
+        },
+        {
+          "name": "soy sauce",
+          "amount": "to taste"
+        },
+        {
+          "name": "fish or vegetables",
+          "amount": "200g"
+        },
+        {
+          "name": "rice vinegar",
+          "amount": "2 tbsp"
+        }
+      ]
     }
   ]
 }

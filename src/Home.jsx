@@ -8,8 +8,6 @@ import NavBar from './NavBar.jsx'
 function Home() {
   const [recipes, setRecipes] = useState([]);
   const [favorites, setFavorites] = useState([]);
-  
-  // const { recipes: homeRecipes, favorites } = recipes;
 
   const mainFetch = fetch('http://localhost:4000/recipes').then(res => res.json())
   const favoritesFetch = fetch('http://localhost:4000/favorites').then(res => res.json())
@@ -23,16 +21,12 @@ function Home() {
     setRecipes(data1)
     setFavorites(data2)
   })},[]) 
- 
-  // useEffect(() => {
-  //     fetch('http://localhost:4000/recipes')
-  //     .then((res) => res.json())
-  //     .then((data) => {
-  //       console.log(data) 
-  //       setRecipes({ recipes: data.recipes, favorites: data.favorites })})
-  //     .catch(error => console.error('Fetch Error:', error));
-  // },[]);
+
+  const sortByName = (set, data) => {set([...data].sort((a, b) => a.name.localeCompare(b.name)))}
+  const sortByCuisine = (set, data) => {set([...data].sort((a, b) => a.cuisine.localeCompare(b.cuisine)))}
   
+ 
+
 
   
   return (
@@ -42,7 +36,7 @@ function Home() {
         
       </header>
       <div>
-        <Outlet context={{ recipes, favorites, setFavorites }} />
+        <Outlet context={{ recipes, favorites, setFavorites, setRecipes, sortByName, sortByCuisine }} />
       </div>
       <footer className='footer'> 
         test information footer
