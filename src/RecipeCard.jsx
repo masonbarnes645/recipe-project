@@ -3,10 +3,12 @@ import { useOutletContext } from "react-router-dom"
 
 function RecipeCard({ name, cuisine, timeToPrep, image, id, ingredients}){
     const url = 'http://localhost:4000/favorites/'
-    const [liked,setLiked]= useState(false)
+    // const [liked,setLiked]= useState(false)
+    const {  favorites, toggleFavorite } = useOutletContext()
+   
+let liked =  favorites.find(recipe => recipe.id === id)
    
     
-    const { setFavorites, favorites } = useOutletContext()
     
        
     const handlePost = (favRecipe) => {
@@ -18,8 +20,8 @@ function RecipeCard({ name, cuisine, timeToPrep, image, id, ingredients}){
         })
         .then(res => res.json())
         .then(favRecipe => {
-            setFavorites(current => [...current, favRecipe])
-            setLiked(true)
+        toggleFavorite(favRecipe)
+            // setLiked(true)
         })
         .catch(e => {
             console.log(e);
@@ -28,21 +30,28 @@ function RecipeCard({ name, cuisine, timeToPrep, image, id, ingredients}){
     }
 
 
-    const handleDelete = (id) => {
+    const handleDelete = () => {
         fetch(url + id, {
             method: 'DELETE'})
             .then(res => {
-                setFavorites(current => current.filter(recipe => recipe.id !== id))
-                setLiked(false)
+               toggleFavorite({id}) 
+                // setLiked(false)
             })
             
         }
+
+        // const handleChange = (e) =>{
+    
+        //     setQuery(e.target.value)
+            
+        // }
+        // const filteredRecipes = (recipes.filter( recipe => (recipe.name.toLowerCase()).includes(query.toLowerCase())))
     
 
     const handleClick = () =>{
         const favRecipe = {id, name, cuisine, timeToPrep, image, ingredients}
 
-            liked ? handleDelete(id) : handlePost(favRecipe)
+            liked ? handleDelete() : handlePost(favRecipe)
 
     }
 
