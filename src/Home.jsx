@@ -11,6 +11,9 @@ function Home() {
   const [query, setQuery] =  useState('');
  
 
+  const handleAddRecipe = (newRecipe) => {
+    setRecipes( current => [...current, newRecipe] ) 
+  }
   const mainFetch = fetch('http://localhost:4000/recipes').then(res => res.json())
   const favoritesFetch = fetch('http://localhost:4000/favorites').then(res => res.json())
 
@@ -23,7 +26,7 @@ function Home() {
     setRecipes(data1)
     setFavorites(data2)
   })
-  .catch(console.log)},[recipes]) 
+  .catch(console.log)},[]) 
 
   const sortByName = (set, dataset) => {set([...dataset].sort((a, b) => a.name.localeCompare(b.name)))}
   const sortByCuisine = (set, dataset) => {set([...dataset].sort((a, b) => a.cuisine.localeCompare(b.cuisine)))}
@@ -38,7 +41,7 @@ function Home() {
         
       </header>
       <div>
-        <Outlet context={{ recipes, favorites, toggleFavorite, setRecipes, sortByName, sortByCuisine, query, setQuery }} />
+        <Outlet context={{ recipes, favorites, toggleFavorite, setRecipes, sortByName, sortByCuisine, query, setQuery, handleAddRecipe }} />
       </div>
       <footer className='footer'> 
         test information footer
