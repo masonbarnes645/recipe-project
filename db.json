@@ -66,7 +66,7 @@
         }
       ],
       "timeToPrep": "1 hour",
-      "image": "https://assets.bonappetit.com/photos/5a6f48f94f860a026c60fd71/1:1/w_1920,c_limit/pasta-carbonara.jpg"
+      "image": "https://www.allrecipes.com/thmb/1ul-jdOz8H4b6BDrRcYOuNmJgt4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/239867chef-johns-chicken-tikka-masala-ddmfs-3X4-0572-e02a25f8c7b745459a9106e9eb13de10.jpg"
     },
     {
       "id": "3",
@@ -96,7 +96,7 @@
         }
       ],
       "timeToPrep": "45 minutes",
-      "image": "https://assets.bonappetit.com/photos/5a6f48f94f860a026c60fd71/1:1/w_1920,c_limit/pasta-carbonara.jpg"
+      "image": "https://www.justonecookbook.com/wp-content/uploads/2023/05/Vegetarian-Sushi-Rolls-9707-I-1.jpg"
     },
     {
       "id": "4",
@@ -130,7 +130,7 @@
         }
       ],
       "timeToPrep": "30 minutes",
-      "image": "https://assets.bonappetit.com/photos/5a6f48f94f860a026c60fd71/1:1/w_1920,c_limit/pasta-carbonara.jpg"
+      "image": "https://www.howsweeteats.com/wp-content/uploads/2019/01/beef-tacos-I-howsweeteats.com-11.jpg"
     },
     {
       "id": "5",
@@ -168,7 +168,7 @@
         }
       ],
       "timeToPrep": "30 minutes",
-      "image": "https://assets.bonappetit.com/photos/5a6f48f94f860a026c60fd71/1:1/w_1920,c_limit/pasta-carbonara.jpg"
+      "image": "https://pinchofyum.com/wp-content/uploads/Vegetarian-Pad-Thai-Recipe.jpg"
     },
     {
       "id": "6",
@@ -202,7 +202,7 @@
         }
       ],
       "timeToPrep": "4 hours",
-      "image": "https://assets.bonappetit.com/photos/5a6f48f94f860a026c60fd71/1:1/w_1920,c_limit/pasta-carbonara.jpg"
+      "image": "https://img.delicious.com.au/cqtj-J0D/del/2015/12/cornetti-italian-croissants-24713-1.jpg"
     },
     {
       "id": "7",
@@ -240,7 +240,7 @@
         }
       ],
       "timeToPrep": "1 hour 30 minutes",
-      "image": "https://assets.bonappetit.com/photos/5a6f48f94f860a026c60fd71/1:1/w_1920,c_limit/pasta-carbonara.jpg"
+      "image": "https://keviniscooking.com/wp-content/uploads/2018/06/Real-Deal-Chili-Con-Carne-square.jpg"
     },
     {
       "id": "8",
@@ -274,7 +274,7 @@
         }
       ],
       "timeToPrep": "1 hour",
-      "image": "https://assets.bonappetit.com/photos/5a6f48f94f860a026c60fd71/1:1/w_1920,c_limit/pasta-carbonara.jpg"
+      "image": "https://www.simplyleb.com/wp-content/uploads/Falafel-38.jpg"
     },
     {
       "id": "9",
@@ -304,7 +304,7 @@
         }
       ],
       "timeToPrep": "3 hours",
-      "image": "https://assets.bonappetit.com/photos/5a6f48f94f860a026c60fd71/1:1/w_1920,c_limit/pasta-carbonara.jpg"
+      "image": "https://www.austinchronicle.com/binary/dd14/food_feature40-2.jpg"
     },
     {
       "id": "10",
@@ -342,7 +342,7 @@
         }
       ],
       "timeToPrep": "2 hours",
-      "image": "https://assets.bonappetit.com/photos/5a6f48f94f860a026c60fd71/1:1/w_1920,c_limit/pasta-carbonara.jpg"
+      "image": "https://recipes.net/wp-content/uploads/2021/11/german-goulash-recipe.jpeg"
     },
     {
       "id": "11",
@@ -376,131 +376,64 @@
         }
       ],
       "timeToPrep": "1 hour 30 minutes",
-      "image": "https://assets.bonappetit.com/photos/5a6f48f94f860a026c60fd71/1:1/w_1920,c_limit/pasta-carbonara.jpg"
+      "image": "https://saltedmint.com/wp-content/uploads/2024/01/Indian-Butter-Chicken-recipe-with-rice.jpg"
     },
     {
-      "id": "3b9b",
-      "name": "w",
-      "cuisine": "w",
-      "instructions": "w",
-      "ingredients": [],
-      "timeToPrep": "w",
-      "image": ""
-    },
-    {
-      "id": "7823",
-      "name": "",
-      "cuisine": "",
-      "instructions": "",
-      "ingredients": [],
-      "timeToPrep": "",
-      "image": ""
-    },
-    {
-      "id": "ee56",
-      "name": "s",
-      "cuisine": "s",
-      "instructions": "s",
-      "ingredients": [],
-      "timeToPrep": "s",
-      "image": ""
-    },
-    {
-      "id": "d500",
-      "name": "32",
-      "cuisine": "23",
-      "instructions": "33",
-      "ingredients": [],
-      "timeToPrep": "32",
-      "image": ""
-    },
-    {
-      "id": "c9cb",
-      "name": "2",
-      "cuisine": "2",
-      "instructions": "2",
+      "id": "5504",
+      "name": "Mac and Cheese",
+      "cuisine": "American",
+      "instructions": "cook that ish up",
       "ingredients": [
         {
-          "name": "2",
-          "amount": "2"
+          "name": "cheese",
+          "amount": "100g"
+        },
+        {
+          "name": "pasta",
+          "amount": "50 g"
+        },
+        {
+          "name": "salt",
+          "amount": "1 tsp"
+        },
+        {
+          "name": "butter",
+          "amount": "1 cup"
         }
       ],
-      "timeToPrep": "2",
+      "timeToPrep": "1 hour",
       "image": ""
     },
     {
-      "id": "2557",
-      "name": "3123",
-      "cuisine": "312",
-      "instructions": "31",
+      "id": "1c4e",
+      "name": "test",
+      "cuisine": "qwe",
+      "instructions": "weqwe",
       "ingredients": [
         {
-          "name": "31",
-          "amount": "31"
+          "name": "eqwe",
+          "amount": "22"
         }
       ],
-      "timeToPrep": "312",
-      "image": ""
+      "timeToPrep": "12",
+      "image": "https://letsenhance.io/static/8f5e523ee6b2479e26ecc91b9c25261e/1015f/MainAfter.jpg"
     },
     {
-      "id": "42f3",
-      "name": "new",
-      "cuisine": "1",
-      "instructions": "3",
+      "id": "0935",
+      "name": "asd",
+      "cuisine": "asdasda",
+      "instructions": "asd",
       "ingredients": [
         {
-          "name": "4",
-          "amount": "5"
+          "name": "asd",
+          "amount": "22"
         }
       ],
-      "timeToPrep": "2",
-      "image": ""
-    },
-    {
-      "id": "51b0",
-      "name": "ttt",
-      "cuisine": "t",
-      "instructions": "t",
-      "ingredients": [
-        {
-          "name": "t",
-          "amount": "t"
-        }
-      ],
-      "timeToPrep": "tt",
-      "image": ""
+      "timeToPrep": "dsd",
+      "image": "https://letsenhance.io/static/8f5e523ee6b2479e26ecc91b9c25261e/1015f/MainAfter.jpg"
     }
   ],
   "favorites": [
-    {
-      "id": "3",
-      "name": "Sushi Rolls",
-      "cuisine": "Japanese",
-      "timeToPrep": "45 minutes",
-      "image": "https://assets.bonappetit.com/photos/5a6f48f94f860a026c60fd71/1:1/w_1920,c_limit/pasta-carbonara.jpg",
-      "ingredients": [
-        {
-          "name": "sushi rice",
-          "amount": "200g"
-        },
-        {
-          "name": "seaweed",
-          "amount": "4 sheets"
-        },
-        {
-          "name": "soy sauce",
-          "amount": "to taste"
-        },
-        {
-          "name": "fish or vegetables",
-          "amount": "200g"
-        },
-        {
-          "name": "rice vinegar",
-          "amount": "2 tbsp"
-        }
-      ]
-    },
     {
       "id": "1",
       "name": "Spaghetti Carbonara",
@@ -531,72 +464,64 @@
       ]
     },
     {
-      "id": "5",
-      "name": "Pad Thai",
-      "cuisine": "Thai",
-      "timeToPrep": "30 minutes",
-      "image": "https://assets.bonappetit.com/photos/5a6f48f94f860a026c60fd71/1:1/w_1920,c_limit/pasta-carbonara.jpg",
+      "id": "3",
+      "name": "Sushi Rolls",
+      "cuisine": "Japanese",
+      "timeToPrep": "45 minutes",
+      "image": "https://www.justonecookbook.com/wp-content/uploads/2023/05/Vegetarian-Sushi-Rolls-9707-I-1.jpg",
       "ingredients": [
         {
-          "name": "rice noodles",
+          "name": "sushi rice",
           "amount": "200g"
         },
         {
-          "name": "shrimp",
-          "amount": "150g"
+          "name": "seaweed",
+          "amount": "4 sheets"
         },
         {
-          "name": "tofu",
-          "amount": "100g"
+          "name": "soy sauce",
+          "amount": "to taste"
         },
         {
-          "name": "egg",
-          "amount": "1"
+          "name": "fish or vegetables",
+          "amount": "200g"
         },
         {
-          "name": "pad Thai sauce",
-          "amount": "4 tbsp"
-        },
-        {
-          "name": "bean sprouts",
-          "amount": "1 cup"
-        },
-        {
-          "name": "peanuts",
+          "name": "rice vinegar",
           "amount": "2 tbsp"
         }
       ]
     },
     {
-      "id": "6",
-      "name": "Croissant",
-      "cuisine": "French",
-      "timeToPrep": "4 hours",
-      "image": "https://assets.bonappetit.com/photos/5a6f48f94f860a026c60fd71/1:1/w_1920,c_limit/pasta-carbonara.jpg",
+      "id": "4",
+      "name": "Beef Tacos",
+      "cuisine": "Mexican",
+      "timeToPrep": "30 minutes",
+      "image": "https://www.howsweeteats.com/wp-content/uploads/2019/01/beef-tacos-I-howsweeteats.com-11.jpg",
       "ingredients": [
         {
-          "name": "flour",
+          "name": "ground beef",
           "amount": "250g"
         },
         {
-          "name": "butter",
-          "amount": "150g"
-        },
-        {
-          "name": "yeast",
-          "amount": "1 tsp"
-        },
-        {
-          "name": "milk",
-          "amount": "100ml"
-        },
-        {
-          "name": "sugar",
+          "name": "taco seasoning",
           "amount": "2 tbsp"
         },
         {
-          "name": "salt",
-          "amount": "1 tsp"
+          "name": "tortillas",
+          "amount": "4"
+        },
+        {
+          "name": "lettuce",
+          "amount": "1 cup"
+        },
+        {
+          "name": "cheese",
+          "amount": "50g"
+        },
+        {
+          "name": "salsa",
+          "amount": "to taste"
         }
       ]
     }

@@ -22,7 +22,7 @@ function Favorites(){
   
   <header>
     <h1>Recipe Placeholder</h1>
-            <input name="search" type="text"value={query} onChange={handleChange} />
+            <input name="search" type="text"value={query} onChange={handleChange} placeholder="Search..."/>
             <button onClick={() => sortByName(setFavorites, favorites)}> Sort Alphabetically</button>
             <button onClick={() => sortByCuisine(setFavorites, favorites)}> Sort By Cuisine</button>
     </header>

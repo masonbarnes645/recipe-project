@@ -2,8 +2,9 @@ import { Children } from "react"
 import Home from "./Home"
 import ErrorPage from "./ErrorPage"
 import Favorites from "./Favorites.jsx"
-import Submit from "./submit"
+import Submit from "./Submit.jsx"
 import Index from './Index.jsx'
+import Details from "./Details.jsx"
 
 const routes = [
 
@@ -23,6 +24,10 @@ const routes = [
             {
                 path: 'new-dish',
                 element: <Submit />
+            },
+            {
+                path: 'recipes/:id',
+                element: <Details />
             }
 
         ]

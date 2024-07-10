@@ -1,5 +1,5 @@
 import { useState } from "react"
-import { useOutletContext } from "react-router-dom"
+import { Link, useOutletContext } from "react-router-dom"
 
 function RecipeCard({ name, cuisine, timeToPrep, image, id, ingredients}){
     const url = 'http://localhost:4000/favorites/'
@@ -64,6 +64,7 @@ let liked =  favorites.find(recipe => recipe.id === id)
         <h3>Prep Time: {timeToPrep}</h3>
         <img src={image} alt={name} className="food-pics"/>
         <button onClick={handleClick}>{liked ? "Remove from Favorites" : "Add to Favorites"}</button>
+        <Link to={`/recipes/${id}`}>Details</Link> 
         </div>
     )
 
