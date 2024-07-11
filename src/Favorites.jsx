@@ -48,6 +48,7 @@ function Favorites() {
           value={query}
           onChange={handleChange}
           placeholder="Search..."
+          className="searchbar"
         />
         <button onClick={handleSortByName}>
           Sort Alphabetically

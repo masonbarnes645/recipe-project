@@ -129,3 +129,7 @@ input {
   font-size: 250%;
   color: #1a1a1a;
 }
+
+.searchbar{
+  width: 95%;
+}
