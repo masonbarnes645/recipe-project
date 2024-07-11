@@ -37,12 +37,16 @@ Currently, two official plugins are available:
 
 - This project was made by Mason Barnes, with assistance from Flatiron staff, students and resources.
 
+# What I learned
+
+- I learned how to navigate and use vite, jsx, features of react and react nod packages such as Hot Toast. I also gained an understanding of react-router-dom and client-side routing in general
+
+
+
+
 # License 
 
 - This project is is made in conjunction with the standard MIT license provided by GitHub upon creation of a new repository. 
 
-# What I learned
-
-- I learned how to navigate and use vite, jsx, features of react and react nod packages such as Hot Toast. I also gained an understanding of react-router-dom and client-side routing in general
 
 
