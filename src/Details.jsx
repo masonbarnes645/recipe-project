@@ -22,7 +22,7 @@ if(!fetchedRecipe){
 
 return(
     <>
-    <img src={fetchedRecipe.image}/>
+    <img src={fetchedRecipe.image} className="detailsPic"/>
     <h1>{fetchedRecipe.name}</h1>
     <h2>{fetchedRecipe.cuisine}</h2>
     <h2>{fetchedRecipe.timeToPrep}</h2>

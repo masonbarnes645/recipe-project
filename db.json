@@ -379,90 +379,25 @@
       "image": "https://saltedmint.com/wp-content/uploads/2024/01/Indian-Butter-Chicken-recipe-with-rice.jpg"
     },
     {
-      "id": "5504",
+      "id": "cb96",
       "name": "Mac and Cheese",
       "cuisine": "American",
-      "instructions": "cook that ish up",
+      "instructions": "Make Pasta, add Cheese",
       "ingredients": [
+        {
+          "name": "mac",
+          "amount": "1 cup"
+        },
         {
           "name": "cheese",
-          "amount": "100g"
-        },
-        {
-          "name": "pasta",
-          "amount": "50 g"
-        },
-        {
-          "name": "salt",
-          "amount": "1 tsp"
-        },
-        {
-          "name": "butter",
-          "amount": "1 cup"
+          "amount": "2 cups"
         }
       ],
-      "timeToPrep": "1 hour",
-      "image": ""
-    },
-    {
-      "id": "1c4e",
-      "name": "test",
-      "cuisine": "qwe",
-      "instructions": "weqwe",
-      "ingredients": [
-        {
-          "name": "eqwe",
-          "amount": "22"
-        }
-      ],
-      "timeToPrep": "12",
-      "image": "https://letsenhance.io/static/8f5e523ee6b2479e26ecc91b9c25261e/1015f/MainAfter.jpg"
-    },
-    {
-      "id": "0935",
-      "name": "asd",
-      "cuisine": "asdasda",
-      "instructions": "asd",
-      "ingredients": [
-        {
-          "name": "asd",
-          "amount": "22"
-        }
-      ],
-      "timeToPrep": "dsd",
-      "image": "https://letsenhance.io/static/8f5e523ee6b2479e26ecc91b9c25261e/1015f/MainAfter.jpg"
+      "timeToPrep": "45 Minutes",
+      "image": "https://www.allrecipes.com/thmb/FfDOAvSVibBVjpTEEdSrbMmo62o=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/ar-cheese-week-GettyImages-1083507204-4x3-27828b5f4fb64421b8d2bd19f6500748.jpg"
     }
   ],
   "favorites": [
-    {
-      "id": "1",
-      "name": "Spaghetti Carbonara",
-      "cuisine": "Italian",
-      "timeToPrep": "20 minutes",
-      "image": "https://assets.bonappetit.com/photos/5a6f48f94f860a026c60fd71/1:1/w_1920,c_limit/pasta-carbonara.jpg",
-      "ingredients": [
-        {
-          "name": "spaghetti",
-          "amount": "200g"
-        },
-        {
-          "name": "pancetta",
-          "amount": "100g"
-        },
-        {
-          "name": "eggs",
-          "amount": "2"
-        },
-        {
-          "name": "Parmesan cheese",
-          "amount": "50g"
-        },
-        {
-          "name": "black pepper",
-          "amount": "to taste"
-        }
-      ]
-    },
     {
       "id": "3",
       "name": "Sushi Rolls",
@@ -522,6 +457,171 @@
         {
           "name": "salsa",
           "amount": "to taste"
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "name": "Peking Duck",
+      "cuisine": "Chinese",
+      "timeToPrep": "3 hours",
+      "image": "https://www.austinchronicle.com/binary/dd14/food_feature40-2.jpg",
+      "ingredients": [
+        {
+          "name": "duck",
+          "amount": "1 small"
+        },
+        {
+          "name": "hoisin sauce",
+          "amount": "100ml"
+        },
+        {
+          "name": "pancakes",
+          "amount": "8"
+        },
+        {
+          "name": "cucumber",
+          "amount": "1"
+        },
+        {
+          "name": "scallions",
+          "amount": "4"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Chicken Tikka Masala",
+      "cuisine": "Indian",
+      "timeToPrep": "1 hour",
+      "image": "https://www.allrecipes.com/thmb/1ul-jdOz8H4b6BDrRcYOuNmJgt4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/239867chef-johns-chicken-tikka-masala-ddmfs-3X4-0572-e02a25f8c7b745459a9106e9eb13de10.jpg",
+      "ingredients": [
+        {
+          "name": "chicken",
+          "amount": "300g"
+        },
+        {
+          "name": "yogurt",
+          "amount": "100g"
+        },
+        {
+          "name": "garam masala",
+          "amount": "2 tbsp"
+        },
+        {
+          "name": "onions",
+          "amount": "1"
+        },
+        {
+          "name": "garlic",
+          "amount": "3 cloves"
+        },
+        {
+          "name": "tomatoes",
+          "amount": "200g"
+        },
+        {
+          "name": "cream",
+          "amount": "100ml"
+        }
+      ]
+    },
+    {
+      "id": "1",
+      "name": "Spaghetti Carbonara",
+      "cuisine": "Italian",
+      "timeToPrep": "20 minutes",
+      "image": "https://assets.bonappetit.com/photos/5a6f48f94f860a026c60fd71/1:1/w_1920,c_limit/pasta-carbonara.jpg",
+      "ingredients": [
+        {
+          "name": "spaghetti",
+          "amount": "200g"
+        },
+        {
+          "name": "pancetta",
+          "amount": "100g"
+        },
+        {
+          "name": "eggs",
+          "amount": "2"
+        },
+        {
+          "name": "Parmesan cheese",
+          "amount": "50g"
+        },
+        {
+          "name": "black pepper",
+          "amount": "to taste"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Pad Thai",
+      "cuisine": "Thai",
+      "timeToPrep": "30 minutes",
+      "image": "https://pinchofyum.com/wp-content/uploads/Vegetarian-Pad-Thai-Recipe.jpg",
+      "ingredients": [
+        {
+          "name": "rice noodles",
+          "amount": "200g"
+        },
+        {
+          "name": "shrimp",
+          "amount": "150g"
+        },
+        {
+          "name": "tofu",
+          "amount": "100g"
+        },
+        {
+          "name": "egg",
+          "amount": "1"
+        },
+        {
+          "name": "pad Thai sauce",
+          "amount": "4 tbsp"
+        },
+        {
+          "name": "bean sprouts",
+          "amount": "1 cup"
+        },
+        {
+          "name": "peanuts",
+          "amount": "2 tbsp"
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "name": "Croissant",
+      "cuisine": "French",
+      "timeToPrep": "4 hours",
+      "image": "https://img.delicious.com.au/cqtj-J0D/del/2015/12/cornetti-italian-croissants-24713-1.jpg",
+      "ingredients": [
+        {
+          "name": "flour",
+          "amount": "250g"
+        },
+        {
+          "name": "butter",
+          "amount": "150g"
+        },
+        {
+          "name": "yeast",
+          "amount": "1 tsp"
+        },
+        {
+          "name": "milk",
+          "amount": "100ml"
+        },
+        {
+          "name": "sugar",
+          "amount": "2 tbsp"
+        },
+        {
+          "name": "salt",
+          "amount": "1 tsp"
         }
       ]
     }

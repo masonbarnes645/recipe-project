@@ -119,12 +119,13 @@ function Submit() {
       <input type="text" name="image" placeholder="Add Image URL here" onChange={handleChange} value={formData.image} />
       {errors.image && <div>{errors.image}</div>}
       {inputFields.map((input, index) => (
-        <div key={index}>
+        <div key={index} className="inline-div">
           <input
             name="name"
             placeholder="Ingredient"
             value={input.name}
             onChange={e => handleDynamicChange(index, e)}
+            className="inline"
           />
           {errors[`ingredients[${index}].name`] && <div>{errors[`ingredients[${index}].name`]}</div>}
           <input
@@ -132,6 +133,7 @@ function Submit() {
             placeholder="Amount"
             value={input.amount}
             onChange={e => handleDynamicChange(index, e)}
+            className="inline"
           />
           {errors[`ingredients[${index}].amount`] && <div>{errors[`ingredients[${index}].amount`]}</div>}
         </div>

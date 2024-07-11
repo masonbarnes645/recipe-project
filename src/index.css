@@ -5,7 +5,7 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background-color: #F47A27;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -68,6 +68,7 @@ button:focus-visible {
 }
 .food-pics{
   height: 200px;
+  width: 250px;
 }
 
 .footer{
@@ -75,4 +76,45 @@ button:focus-visible {
   bottom: 0;
   width: 100%;
   height: 2.5rem;  
+}
+.recipeCard{
+  color: #F47A27
+}
+.cardContainer{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px));
+  gap: 16px; 
+  padding: 16px;
+  
+
+}
+
+.recipeCard {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  background-color: #756D53;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 5rem;
+}
+
+.detailsPic{
+  height: 500px;
+  width: 500px;
+  border-color: #1a1a1a;
+  border-radius: 10px;
+}
+input {
+  width: 100%;
+  
+}
+
+.inline{
+  width: 50%;
+  
+}
+.inline-div{
+  display: flex;
+  width: 101%;
+  
 }

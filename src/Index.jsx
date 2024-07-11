@@ -37,7 +37,7 @@ function Index() {
   const handleSortByCuisine = () => {
     if (isSortedByCuisine) {
       setFilteredArray(recipes.filter(recipe =>
-        recipe.name.toLowerCase().includes(query.toLowerCase())
+        recipe.name.toLowerCase().includes(query.toLowerCase()  )
       ));
     } else {
       const sorted = [...filteredArray].sort((a, b) =>
@@ -46,14 +46,14 @@ function Index() {
       setFilteredArray(sorted);
     }
     setIsSortedByCuisine(!isSortedByCuisine);
-    setIsSortedByName(false); // Reset name sort state
+    setIsSortedByName(false); 
   };
 
 
   return (
     <>
       <header>
-        <h1>Recipe Placeholder</h1>
+        <h1>Recipe Box</h1>
         <input
           name="search"
           type="text"
@@ -66,7 +66,7 @@ function Index() {
         </button>
         <button onClick={handleSortByCuisine}>Sort By Cuisine</button>
       </header>
-      <div>
+      <div className="cardContainer">
         <ul>
           {filteredArray.map((recipe) => (
             <RecipeCard key={recipe.id} {...recipe} />

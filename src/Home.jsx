@@ -44,6 +44,7 @@ function Home() {
   return (
     <>
       <header>
+        
         <Toaster />
         <NavBar />
         
@@ -51,9 +52,9 @@ function Home() {
       <div>
         <Outlet context={{ recipes, favorites, toggleFavorite, setRecipes, sortByName, sortByCuisine, query, setQuery, handleAddRecipe, setFavorites, handleRemoveRecipe, filteredArray }} />
       </div>
-      <footer className='footer'> 
+      {/* <footer className='footer'> 
         test information footer
-      </footer>
+      </footer> */}
       
     </>
   )
