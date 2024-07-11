@@ -624,6 +624,23 @@
           "amount": "1 tsp"
         }
       ]
+    },
+    {
+      "id": "cb96",
+      "name": "Mac and Cheese",
+      "cuisine": "American",
+      "timeToPrep": "45 Minutes",
+      "image": "https://www.allrecipes.com/thmb/FfDOAvSVibBVjpTEEdSrbMmo62o=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/ar-cheese-week-GettyImages-1083507204-4x3-27828b5f4fb64421b8d2bd19f6500748.jpg",
+      "ingredients": [
+        {
+          "name": "mac",
+          "amount": "1 cup"
+        },
+        {
+          "name": "cheese",
+          "amount": "2 cups"
+        }
+      ]
     }
   ]
 }
