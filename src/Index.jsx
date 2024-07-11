@@ -53,7 +53,9 @@ function Index() {
   return (
     <>
       <header>
-        <h1>Recipe Box</h1>
+        <div className="logo">
+        <h1 className="logo-letters">RECIPE BOX</h1>
+        </div>
         <input
           name="search"
           type="text"

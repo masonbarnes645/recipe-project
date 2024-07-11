@@ -15,7 +15,7 @@
 
 a {
   font-weight: 500;
-  color: #646cff;
+  color: black;
   text-decoration: inherit;
 }
 a:hover {
@@ -96,6 +96,7 @@ button:focus-visible {
   background-color: #756D53;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   margin-bottom: 5rem;
+  color: #1a1a1a;
 }
 
 .detailsPic{
@@ -117,4 +118,14 @@ input {
   display: flex;
   width: 101%;
   
+}
+
+.logo {
+  border: 20px solid #1a1a1a; 
+
+}
+
+.logo-letters{
+  font-size: 250%;
+  color: #1a1a1a;
 }
