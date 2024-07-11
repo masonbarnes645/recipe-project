@@ -21,6 +21,22 @@ Currently, two official plugins are available:
 
 - You must have access to the JSON server and other dependencies in the directory that you are running the application in.
 
+# How to Start Application
+
+- Fork and clone this repo, and open in your favorite code editor.
+
+- Run npm install or npm i to install necessary packages.
+
+- Make sure nothing is currently running on http://localhost:4000.
+
+- Open a terminal window in the main directory of where this project is located on your computer.
+
+- Enter json-server --watch db.json --port 4000 in the terminal and press enter
+
+- It should be running on http://localhost:4000 
+
+- Enter npx vite in separate terminal
+
 # Using the Application
 
 - User can browse recipes on the landing page.

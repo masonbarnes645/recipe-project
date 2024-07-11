@@ -22,7 +22,7 @@ function Favorites() {
     );
     setFilteredArray(isSortedByName ? sorted.reverse() : sorted);
     setIsSortedByName(!isSortedByName);
-    setIsSortedByCuisine(false); // Reset cuisine sorting state
+    setIsSortedByCuisine(false); 
   };
 
   const handleSortByCuisine = () => {
@@ -31,7 +31,7 @@ function Favorites() {
     );
     setFilteredArray(isSortedByCuisine ? sorted.reverse() : sorted);
     setIsSortedByCuisine(!isSortedByCuisine);
-    setIsSortedByName(false); // Reset name sorting state
+    setIsSortedByName(false); 
   };
 
   const handleChange = (e) => {
